@@ -25,7 +25,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	marshaled, err := json.MarshalIndent(unmarshaled, "", " ")
+	marshaled, err := json.MarshalIndent(unmarshaled, "", "  ")
 	if err != nil {
 		log.Fatal(err)
 	}
